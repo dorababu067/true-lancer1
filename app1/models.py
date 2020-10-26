@@ -29,4 +29,4 @@ class SubmitedAssets(models.Model):
     submitdt = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.userid} is submited {self.asasset_name}"
+        return f"{self.userid} is submited {self.asset_name}"

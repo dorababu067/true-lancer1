@@ -1,0 +1,62 @@
+<div class="dash-buttons">
+    <div class="row justify-content-around">
+        {% for button in assets1 %}
+        <!-- col -->
+        <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#{{button.name}}">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+                <div class="inner">
+                    <p>{{ button.name }} | {{button.total}}</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-bag"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="{{ button.name }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="{{button.name}}">Confirmation</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        You Want to Submit {{ button.name }} ?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">
+                            <a href="{% url 'submit-asset' button.name %}"
+                                style="text-decoration: none; color: white;">submit</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row justify-content-around">
+        {% for button in assets2 %}
+        <!-- col -->
+        <div class="col-lg-1 col-md-3 col-3">
+            <!-- small box -->
+            <div class="small-box bg-success">
+                <div class="inner">
+                    <p>{{ button.name }} | {{button.total}}</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-bag"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
+</div>

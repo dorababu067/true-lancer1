@@ -9,18 +9,18 @@ class User(models.Model):
     ipaddress = models.GenericIPAddressField()
     registerdate = models.DateField(auto_now_add=True)
     last_login_date	= models.DateField(null=True, blank=True)
-    created_on = models.CharField(max_length=255, null=True, blank=True)
+    created_on = models.DateField(auto_now_add=True)
     status = models.BooleanField(default=True)
 
     def __str__(self):
-        self.username
+        return self.username
 
 class LoginDetails(models.Model):
     userid = models.ForeignKey(User, on_delete=models.CASCADE)
     type	= models.CharField(max_length=255, default='some type')
-    created_on =  models.CharField(max_length=255, null=True, blank=True)	
+    created_on = models.DateField(blank=True, null=True)
     ipaddress = models.GenericIPAddressField(null=True, blank=True)
     useragent = models.CharField(max_length=1000)
 
     def  __str__(self):
-        self.userid.username
+        return self.userid.username

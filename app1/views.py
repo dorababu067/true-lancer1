@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from django.core import serializers
-from .models import CaronaData, Asset
+from .models import CaronaData, Asset, SubmitedAssets
 from .graph import genarate_bar_graph
 from django_pandas.io import read_frame
 from django.template.loader import render_to_string
@@ -14,8 +14,8 @@ def index(request):
     "data" : CaronaData.objects.all(),
     # "graph1" : genarate_bar_graph(df),
     # "graph2" : genarate_bar_graph(df),
-    # "assets1" : Asset.objects.all()[0:10],
-    # "assets2" : Asset.objects.all()[10:20],
+    "assets1" : Asset.objects.all()[0:10],
+    "assets2" : Asset.objects.all()[10:20],
     }
     return render(request, 'index2.html', context)
 
@@ -35,3 +35,12 @@ def dynamic_table(request):
         context = { "data" :CaronaData.objects.filter(country__icontains=country) }
         html = render_to_string("search_table_data.html",context)
         return JsonResponse(html, safe=False)
+
+def submit_asset(request, asset=None):
+    if request.session.get('user', False):
+        user = request.session.get('user')
+        sa = SubmitedAssets(userid=user, asset_name=asset)
+        sa.save()
+        return redirect(index)
+    else:
+        return redirect('login')

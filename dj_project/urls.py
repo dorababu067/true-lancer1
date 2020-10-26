@@ -16,10 +16,18 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app1 import views
+from users import views as auth_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name="index"),
+    path('index/', views.index, name="index"),
     path('graph/', views.dynamic_graph, name="dynamic-graph"),
     path('table/', views.dynamic_table, name="dynamic-table"),
+    # asset views
+    path('asssset/submit/<str:asset>/', views.submit_asset, name="submit-asset"),
+
+    # authentication views
+    path("", auth_views.register, name="register"),
+    path("login/", auth_views.login, name="login"),
+    path("logout/", auth_views.logout, name="logout"),
 ]

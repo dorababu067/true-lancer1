@@ -1,42 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <!-- Dashboard Buttons -->
-<div class="dash-buttons">
-    <div class="row justify-content-around">
-        {% for button in assets1 %}
-        <!-- col -->
-        <div class="col-lg-1 col-md-3 col-3">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-                <div class="inner">
-                    <p>{{ button.name }} | {{button.total}}</p>
-                </div>
-                <div class="icon">
-                    <i class="ion ion-bag"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <div class="row justify-content-around">
-        {% for button in assets2 %}
-        <!-- col -->
-        <div class="col-lg-1 col-md-3 col-3">
-            <!-- small box -->
-            <div class="small-box bg-success">
-                <div class="inner">
-                    <p>{{ button.name }} | {{button.total}}</p>
-                </div>
-                <div class="icon">
-                    <i class="ion ion-bag"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
+{% include "snippets/buttons.html" %}
 <!-- Dashboard Buttons End -->
 <div class="row">
     <div class="col-md-6 separation">
@@ -192,8 +157,6 @@
         </div>
     </div>
 </div>
-</div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     $(document).ready(function () {
