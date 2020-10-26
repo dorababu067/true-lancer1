@@ -1,0 +1,25 @@
+.container-fluid{
+    /* border: rgb(192, 176, 176) 2px solid; */
+    padding:0px;
+}
+
+.dash-buttons {
+    /* border: rgb(192, 176, 176) 2px solid; */
+    padding-top: 4px;
+    margin: 0px;
+}
+
+.card-header{
+    padding: 2px;
+}
+
+.card{
+    border: rgb(192, 176, 176) 2px solid;
+}
+/* .table>tr, .table>th{
+    padding: 0px;
+    margin: 0px;
+} */
+/* .left-table > .card-body, .right-tbale > .card-body{
+    padding: 0px;
+} */
