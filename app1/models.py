@@ -19,3 +19,14 @@ class Asset(models.Model):
 
     def __str__(self):
         return self.name
+
+class SubmitedAssets(models.Model):
+    userid = models.CharField(max_length=255, null=True, blank=True)
+    asset_name = models.CharField(max_length=255, null=True, blank=True) 
+    submittime = models.TimeField(auto_now_add=True)
+    timeremaining = models.CharField(max_length=255, default="sometime")
+    submitdate = models.DateField(auto_now_add=True) 
+    submitdt = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.userid} is submited {self.asasset_name}"

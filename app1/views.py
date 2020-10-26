@@ -12,10 +12,10 @@ def index(request):
     df = read_frame(carona)
     context = {
     "data" : CaronaData.objects.all(),
-    "graph1" : genarate_bar_graph(df),
-    "graph2" : genarate_bar_graph(df),
-    "assets1" : Asset.objects.all()[0:10],
-    "assets2" : Asset.objects.all()[10:20],
+    # "graph1" : genarate_bar_graph(df),
+    # "graph2" : genarate_bar_graph(df),
+    # "assets1" : Asset.objects.all()[0:10],
+    # "assets2" : Asset.objects.all()[10:20],
     }
     return render(request, 'index2.html', context)
 
