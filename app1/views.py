@@ -4,9 +4,11 @@ from django.core import serializers
 from .models import CaronaData, Asset, SubmitedAssets
 from .graph import genarate_bar_graph
 from django_pandas.io import read_frame
+from users.decorators import my_login_required
 from django.template.loader import render_to_string
 
 # Create your views here.
+@my_login_required
 def index(request):
     carona = CaronaData.objects.all()
     df = read_frame(carona)
@@ -17,8 +19,10 @@ def index(request):
     "assets1" : Asset.objects.all()[0:10],
     "assets2" : Asset.objects.all()[10:20],
     }
-    return render(request, 'index2.html', context)
+    return render(request, 'index.html', context)
 
+
+@my_login_required
 def dynamic_graph(request):
     if request.method == 'POST':
         val = request.POST['graph-options']
@@ -29,6 +33,7 @@ def dynamic_graph(request):
         }
         return JsonResponse(context, safe=False)
 
+@my_login_required
 def dynamic_table(request):
     if request.method == 'POST':
         country = request.POST['country1']
@@ -36,6 +41,7 @@ def dynamic_table(request):
         html = render_to_string("search_table_data.html",context)
         return JsonResponse(html, safe=False)
 
+@my_login_required
 def submit_asset(request, asset=None):
     if request.session.get('user', False):
         user = request.session.get('user')

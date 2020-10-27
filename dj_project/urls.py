@@ -27,7 +27,7 @@ urlpatterns = [
     path('asssset/submit/<str:asset>/', views.submit_asset, name="submit-asset"),
 
     # authentication views
-    path("", auth_views.register, name="register"),
-    path("login/", auth_views.login, name="login"),
+    path("", auth_views.login, name="login"),
+    path("register/", auth_views.register, name="register"),
     path("logout/", auth_views.logout, name="logout"),
 ]
