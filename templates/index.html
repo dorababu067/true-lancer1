@@ -1,8 +1,22 @@
 {% extends "base.html" %}
 {% block content %}
 <!-- Dashboard Buttons -->
-{% include "snippets/buttons.html" %}
+<div class="dash-buttons">
+    <div class="row justify-content-around" id="stream-buttons1"></div>
+    <div class="row justify-content-around" id="stream-buttons2"></div>
+</div>
 <!-- Dashboard Buttons End -->
+<div class="row">
+    <div id="stream-data">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr id="stream-headers"></tr>
+            </thead>
+            <tbody id="stream-body">
+            </tbody>
+        </table>
+    </div>
+</div>
 <div class="row">
     <div class="col-md-6 separation">
         <!-- left Table -->
@@ -220,7 +234,139 @@
             });
         });
 
+        $(".submit-asset").click(function (event) {
+            // event.preventDefault();
+            console.log("hey clicked the button")
+
+        });
+
 
     });
+
+    // Event source
+    var eventSource = new EventSource("{% url 'stream' %}");
+
+    eventSource.onopen = function () {
+        console.log(' table event-stream its open?');
+    }
+    eventSource.onmessage = function (e) {
+        final_data = JSON.parse(e.data)
+        var thead = "";
+        Object.keys(final_data[0]).forEach(function (item) {
+            thead += `<th>${item}</th>`
+        })
+        document.getElementById("stream-headers").innerHTML = thead
+        // console.log(thead)
+
+        var tbody = ""
+        final_data.forEach(function (item) {
+            row = Object.values(item)
+            tbody += "<tr>"
+            row.forEach(function (item) {
+                tbody += `<td>${item}</td>`
+            })
+            tbody += "</tr>"
+        })
+        document.getElementById("stream-body").innerHTML = tbody
+    }
+
+    // Event source dashboard butttons
+    var eventSource = new EventSource("{% url 'dash-stream' %}");
+
+    eventSource.onopen = function () {
+        console.log(' dash event-stream its open?');
+    }
+    eventSource.onmessage = function (e) {
+        final_data = JSON.parse(e.data)
+        // console.log(final_data)
+        var currentime = new Date();
+        var timeremaining = 1000;
+        //Event source dashboard butttons dashboard butttons first row
+        buttons1 = ""
+        final_data.slice(0, 10).forEach(function (item) {
+            buttons1 += ` <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#${item.name}">
+                            <!-- small box -->
+                        <div class="small-box bg-danger">
+                                <div class="inner">
+                                    <p>${item.name} | ${item.total}</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-bag"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="${item.name}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="${item.name}">Confirmation</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        You Want to Submit ${item.name} ?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="/asset/submit/${item.name}/${timeremaining}/"
+                                                style="text-decoration: none; color: white;">submit</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `
+        })
+        document.getElementById("stream-buttons1").innerHTML = buttons1
+
+        //Event source dashboard butttons dashboard butttons first row
+        buttons2 = ""
+        final_data.slice(10, 20).forEach(function (item) {
+            // console.log(item)
+            buttons2 += ` <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#${item.name}">
+                                <!-- small box -->
+                                <div class="small-box bg-success">
+                                    <div class="inner">
+                                        <p>${item.name} | ${item.total}</p>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="ion ion-bag"></i>
+                                    </div>
+                                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+                         </div>
+                         <!-- Modal -->
+                        <div class="modal fade" id="${item.name}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="${item.name}">Confirmation</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        You Want to Submit ${item.name} ?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="/asset/submit/${item.name}/${timeremaining}/"
+                                                style="text-decoration: none; color: white;">submit</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         `
+        })
+        document.getElementById("stream-buttons2").innerHTML = buttons2
+    }
 </script>
 {% endblock content %}

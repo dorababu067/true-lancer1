@@ -24,8 +24,12 @@ urlpatterns = [
     path('graph/', views.dynamic_graph, name="dynamic-graph"),
     path('table/', views.dynamic_table, name="dynamic-table"),
     # asset views
-    path('asssset/submit/<str:asset>/', views.submit_asset, name="submit-asset"),
+    path('asset/submit/<str:asset>/<str:timeremaining>/', views.submit_asset, name="submit-asset"),
 
+    # streaming data
+    path('stream/', views.caron_live_data, name="stream"),
+    path('dash/stream/', views.dashboard_live_data, name="dash-stream"),
+    
     # authentication views
     path("", auth_views.login, name="login"),
     path("register/", auth_views.register, name="register"),

@@ -1,11 +1,16 @@
+import time
+import json
 from django.shortcuts import render, redirect
-from django.http import JsonResponse
+from django.http import JsonResponse, StreamingHttpResponse
 from django.core import serializers
 from .models import CaronaData, Asset, SubmitedAssets
 from .graph import genarate_bar_graph
 from django_pandas.io import read_frame
 from users.decorators import my_login_required
 from django.template.loader import render_to_string
+from django.db import connection
+from django.core.serializers.json import DjangoJSONEncoder
+from .raw_querys import my_query
 
 # Create your views here.
 @my_login_required
@@ -42,11 +47,52 @@ def dynamic_table(request):
         return JsonResponse(html, safe=False)
 
 @my_login_required
-def submit_asset(request, asset=None):
+def submit_asset(request, asset=None, timeremaining=None):
+    print(timeremaining)
     if request.session.get('user', False):
         user = request.session.get('user')
-        sa = SubmitedAssets(userid=user, asset_name=asset)
+        sa = SubmitedAssets(userid=user, asset_name=asset, timeremaining=timeremaining)
         sa.save()
         return redirect(index)
     else:
         return redirect('login')
+
+#streaming data
+def event_stream():
+    initial_data = ""
+    while True:
+        result = my_query()
+        data = json.dumps(list(result),cls=DjangoJSONEncoder)
+        # print(data)
+        if not initial_data == data:
+            yield "\ndata: {}\n\n".format(data) 
+            initial_data = data
+            # print(initial_data)
+        time.sleep(1)
+
+def caron_live_data(request):
+        response = StreamingHttpResponse(event_stream())
+        response['Content-Type'] = 'text/event-stream'
+        # print(response.readable)
+        return response
+
+
+
+#streaming data
+def dash_event_stream():
+    initial_data = ""
+    while True:
+        result = Asset.objects.all().values()
+        data = json.dumps(list(result),cls=DjangoJSONEncoder)
+        # print(data)
+        # print(data)
+        if not initial_data == data:
+            yield "\ndata: {}\n\n".format(data) 
+            initial_data = data
+            # print(initial_data)
+        time.sleep(1)
+
+def dashboard_live_data(request):
+        response = StreamingHttpResponse(dash_event_stream())
+        response['Content-Type'] = 'text/event-stream'
+        return response
