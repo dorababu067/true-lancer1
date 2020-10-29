@@ -1,0 +1,4529 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-10-26T07:15:18.943Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "A1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-10-26T07:15:26.173Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "A2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-10-26T07:15:30.725Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "A3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-10-26T07:15:36.218Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "A3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-10-26T07:15:42.161Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "A5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-10-26T07:15:53.724Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "A6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-10-26T07:15:59.986Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "A7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-10-26T07:16:07.589Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "A8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-10-26T07:16:12.933Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "A9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-10-26T07:16:19.065Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "A10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-10-27T01:59:56.233Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Alapakam1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-10-27T01:59:56.433Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Alapakam",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-10-27T02:35:22.835Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "A11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-10-27T02:35:28.567Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "A12",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-10-27T02:35:32.559Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "A13",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-10-27T02:35:36.893Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "A14",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-10-27T02:35:42.306Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "A15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-10-27T02:35:46.924Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "A16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-10-27T02:35:53.009Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "A17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-10-27T02:35:59.406Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "A18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-10-27T02:36:11.517Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "A19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-10-27T02:36:19.175Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "A20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-10-27T13:10:10.682Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "China",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cases\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-10-27T13:10:53.513Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "China",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cases\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-10-27T13:14:11.612Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "China",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cases\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-10-27T13:31:04.653Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "China",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cases\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-10-27T14:03:09.459Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "China",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cases\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-10-27T14:05:10.280Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "China",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cases\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-10-28T02:28:10.893Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "A20",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Total\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-10-28T03:49:48.643Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "A20",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Total\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-10-28T14:59:51.737Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "A5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Total\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-10-28T15:00:15.878Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "A18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Total\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add asset",
+        "content_type": 7,
+        "codename": "add_asset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change asset",
+        "content_type": 7,
+        "codename": "change_asset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete asset",
+        "content_type": 7,
+        "codename": "delete_asset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view asset",
+        "content_type": 7,
+        "codename": "view_asset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add carona data",
+        "content_type": 8,
+        "codename": "add_caronadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change carona data",
+        "content_type": 8,
+        "codename": "change_caronadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete carona data",
+        "content_type": 8,
+        "codename": "delete_caronadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view carona data",
+        "content_type": 8,
+        "codename": "view_caronadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add submited assets",
+        "content_type": 9,
+        "codename": "add_submitedassets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change submited assets",
+        "content_type": 9,
+        "codename": "change_submitedassets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete submited assets",
+        "content_type": 9,
+        "codename": "delete_submitedassets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view submited assets",
+        "content_type": 9,
+        "codename": "view_submitedassets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 10,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 10,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 10,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 10,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add login details",
+        "content_type": 11,
+        "codename": "add_logindetails"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change login details",
+        "content_type": 11,
+        "codename": "change_logindetails"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete login details",
+        "content_type": 11,
+        "codename": "delete_logindetails"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view login details",
+        "content_type": 11,
+        "codename": "view_logindetails"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$DXY6dMZXN3XK$40T7h34Dq6YTzCVXn9B3Oj72IaqDEB1uA4ItrW1zh/8=",
+        "last_login": "2020-10-28T14:54:37.309Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-10-26T07:14:13.072Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "app1",
+        "model": "asset"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "app1",
+        "model": "caronadata"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "app1",
+        "model": "submitedassets"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "users",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "users",
+        "model": "logindetails"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "23nbxt9ecbiqdqbkwfzwhzczl2jno9y6",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm74C8lfc5grbM2DiBbipMKcXcSKQW0M_PeWwRalxLWnuYwsbgKFKdfFml8proLflC9Nzm2usxTlHsiD9vl0Di9bkf7d1Col20N2VjUip33nKPOEaNyjFbhhpgIzMUp75JCQm_BswarLHBmSHTWRny-1IU3Uw:1kXxNS:29P3hps-3_h_3QK4U9EuTn5IYD4y1yNvcSGTixRqd0U",
+        "expire_date": "2020-11-12T02:09:22.190Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7m63kvjpwfyjfqv1bsj3pqmwstg6ud8i",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm74C8lfc5grbM2DiBbipMKcXcSKQW0M_PeWwRalxLWnuYwsbgKFKdfFml8proLflC9Nzm2usxTlHsiD9vl0Di9bkf7d1Col20N2VjUip33nKPOEaNyjFbhhpgIzMUp75JCQm_BswarLHBmSHTWRny-1IU3Uw:1kXF9C:9CUteDH6SAJdc50JXBi152f2_Z0ztfm6rpgMETW_N-I",
+        "expire_date": "2020-11-10T02:55:42.971Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mtno5uoi9htc34jmngnt6m1a0wyklzsb",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm74C8lfc5grbM2DiBbipMKcXcSKQW0M_PeWwRalxLWnuYwsbgKFKdfFml8proLflC9Nzm2usxTlHsiD9vl0Di9bkf7d1Col20N2VjUip33nKPOEaNyjFbhhpgIzMUp75JCQm_BswarLHBmSHTWRny-1IU3Uw:1kXn5P:bJDuP6xebSH1LBynDYEEwkVLWeWDeW-WQ7MfEbQWIBk",
+        "expire_date": "2020-11-11T15:10:03.760Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "phymec7cp98hvtxo9l1fptsi4o0djdkv",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm74C8lfc5grbM2DiBbipMKcXcSKQW0M_PeWwRalxLWnuYwsbgKFKdfFml8proLflC9Nzm2usxTlHsiD9vl0Di9bkf7d1Col20N2VjUip33nKPOEaNyjFbhhpgIzMUp75JCQm_BswarLHBmSHTWRny-1IU3Uw:1kXPWi:OOdDHK3qJ3H8Gupn2iNsr9h9BC8JivQUr8LcX0fZ2wQ",
+        "expire_date": "2020-11-10T14:00:40.720Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qlpit129njnilapl8la5tkw3rcjvb74g",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm74C8lfc5grbM2DiBbipMKcXcSKQW0M_PeWwRalxLWnuYwsbgKFKdfFml8proLflC9Nzm2usxTlHsiD9vl0Di9bkf7d1Col20N2VjUip33nKPOEaNyjFbhhpgIzMUp75JCQm_BswarLHBmSHTWRny-1IU3Uw:1kWxE0:CAU3CJjkKphNgEEjxoqc-RIIiIiM72AmpcVXBVA1JNI",
+        "expire_date": "2020-11-09T07:47:28.047Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wwobbw6i3qhkho0rf6dsdcm5jhl2fw0w",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFMHQq4s3u_oRk6YGsrmD5Wxn-XJl3o9px7z1u0tK19uy1hbgcWFwHi9Ms8dWNIu-AHpXuWXU7rPHi5T-RhF3nLHKbm2P4Felr68laxNqCRrXMcvY4ePFoGg1AQE6n6bNHZgEDgjHKslUGjOLIKVOm6RPdcKV0netFIz0p8vidxPUo:1kXKF4:Cdf8RjVMUuy0J4ULQhiFz80eMFWeOzKIeOifDGElAtI",
+        "expire_date": "2020-11-10T08:22:06.588Z"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 1,
+    "fields": {
+        "country": "China",
+        "population": "1439323776",
+        "cases": "85850",
+        "deaths": "4634",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 2,
+    "fields": {
+        "country": "Italy",
+        "population": "60433211",
+        "cases": "542789",
+        "deaths": "37479",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 3,
+    "fields": {
+        "country": "Spain",
+        "population": "46760593",
+        "cases": "1156498",
+        "deaths": "35031",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 4,
+    "fields": {
+        "country": "USA",
+        "population": "331626890",
+        "cases": "8964331",
+        "deaths": "231129",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 5,
+    "fields": {
+        "country": "Germany",
+        "population": "83870395",
+        "cases": "451812",
+        "deaths": "10192",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 6,
+    "fields": {
+        "country": "Iran",
+        "population": "84335541",
+        "cases": "581824",
+        "deaths": "33299",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 7,
+    "fields": {
+        "country": "France",
+        "population": "65320179",
+        "cases": "1165278",
+        "deaths": "35018",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 8,
+    "fields": {
+        "country": "S-Korea",
+        "population": "51283465",
+        "cases": "26043",
+        "deaths": "460",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 9,
+    "fields": {
+        "country": "Switzerland",
+        "population": "8674939",
+        "cases": "127042",
+        "deaths": "2147",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 10,
+    "fields": {
+        "country": "UK",
+        "population": "67999816",
+        "cases": "894690",
+        "deaths": "44998",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 11,
+    "fields": {
+        "country": "Netherlands",
+        "population": "17147019",
+        "cases": "301597",
+        "deaths": "7072",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 12,
+    "fields": {
+        "country": "Austria",
+        "population": "9022928",
+        "cases": "86102",
+        "deaths": "1005",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 13,
+    "fields": {
+        "country": "Belgium",
+        "population": "11605876",
+        "cases": "333718",
+        "deaths": "10899",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 14,
+    "fields": {
+        "country": "Norway",
+        "population": "5434724",
+        "cases": "18342",
+        "deaths": "279",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 15,
+    "fields": {
+        "country": "Sweden",
+        "population": "10118993",
+        "cases": "110594",
+        "deaths": "5933",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 16,
+    "fields": {
+        "country": "Canada",
+        "population": "37848178",
+        "cases": "220213",
+        "deaths": "9973",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 17,
+    "fields": {
+        "country": "Denmark",
+        "population": "5798782",
+        "cases": "41412",
+        "deaths": "708",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 18,
+    "fields": {
+        "country": "Portugal",
+        "population": "10187123",
+        "cases": "121133",
+        "deaths": "2343",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 19,
+    "fields": {
+        "country": "Malaysia",
+        "population": "32498144",
+        "cases": "28640",
+        "deaths": "238",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 20,
+    "fields": {
+        "country": "Brazil",
+        "population": "213044574",
+        "cases": "5411550",
+        "deaths": "157451",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 21,
+    "fields": {
+        "country": "Australia",
+        "population": "25594320",
+        "cases": "27541",
+        "deaths": "905",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 22,
+    "fields": {
+        "country": "Japan",
+        "population": "126351602",
+        "cases": "97074",
+        "deaths": "1718",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 23,
+    "fields": {
+        "country": "Czechia",
+        "population": "10715403",
+        "cases": "268370",
+        "deaths": "2365",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 24,
+    "fields": {
+        "country": "Turkey",
+        "population": "84626587",
+        "cases": "363999",
+        "deaths": "9874",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 25,
+    "fields": {
+        "country": "Israel",
+        "population": "9197590",
+        "cases": "311313",
+        "deaths": "2452",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 26,
+    "fields": {
+        "country": "Ireland",
+        "population": "4955251",
+        "cases": "58067",
+        "deaths": "1885",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 27,
+    "fields": {
+        "country": "Diamond-Princess-",
+        "population": null,
+        "cases": "712",
+        "deaths": "11",
+        "day": "2020-04-09",
+        "time": "2020-04-09T15:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 28,
+    "fields": {
+        "country": "Luxembourg",
+        "population": "629208",
+        "cases": "14399",
+        "deaths": "147",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 29,
+    "fields": {
+        "country": "Pakistan",
+        "population": "222246653",
+        "cases": "329375",
+        "deaths": "6745",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 30,
+    "fields": {
+        "country": "Chile",
+        "population": "19168340",
+        "cases": "503598",
+        "deaths": "14003",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 31,
+    "fields": {
+        "country": "Poland",
+        "population": "37833163",
+        "cases": "280229",
+        "deaths": "4615",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 32,
+    "fields": {
+        "country": "Ecuador",
+        "population": "17727417",
+        "cases": "162178",
+        "deaths": "12573",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 33,
+    "fields": {
+        "country": "Greece",
+        "population": "10406599",
+        "cases": "31496",
+        "deaths": "581",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 34,
+    "fields": {
+        "country": "Finland",
+        "population": "5543480",
+        "cases": "14970",
+        "deaths": "354",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 35,
+    "fields": {
+        "country": "Qatar",
+        "population": "2807805",
+        "cases": "131689",
+        "deaths": "230",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 36,
+    "fields": {
+        "country": "Iceland",
+        "population": "341955",
+        "cases": "4574",
+        "deaths": "11",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 37,
+    "fields": {
+        "country": "Indonesia",
+        "population": "274448083",
+        "cases": "396454",
+        "deaths": "13512",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 38,
+    "fields": {
+        "country": "Singapore",
+        "population": "5865101",
+        "cases": "57980",
+        "deaths": "28",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 39,
+    "fields": {
+        "country": "Thailand",
+        "population": "69856548",
+        "cases": "3746",
+        "deaths": "59",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 40,
+    "fields": {
+        "country": "Saudi-Arabia",
+        "population": "34985990",
+        "cases": "345631",
+        "deaths": "5329",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 41,
+    "fields": {
+        "country": "Slovenia",
+        "population": "2079030",
+        "cases": "24080",
+        "deaths": "251",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 42,
+    "fields": {
+        "country": "Romania",
+        "population": "19195777",
+        "cases": "217216",
+        "deaths": "6574",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 43,
+    "fields": {
+        "country": "India",
+        "population": "1384345261",
+        "cases": "7946429",
+        "deaths": "119535",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 44,
+    "fields": {
+        "country": "Peru",
+        "population": "33117994",
+        "cases": "890574",
+        "deaths": "34197",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 45,
+    "fields": {
+        "country": "Bahrain",
+        "population": "1719833",
+        "cases": "80533",
+        "deaths": "316",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 46,
+    "fields": {
+        "country": "Philippines",
+        "population": "110045534",
+        "cases": "373144",
+        "deaths": "7053",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 47,
+    "fields": {
+        "country": "Russia",
+        "population": "145954725",
+        "cases": "1547774",
+        "deaths": "26589",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 48,
+    "fields": {
+        "country": "Estonia",
+        "population": "1326824",
+        "cases": "4465",
+        "deaths": "73",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 49,
+    "fields": {
+        "country": "Egypt",
+        "population": "102939046",
+        "cases": "106707",
+        "deaths": "6211",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 50,
+    "fields": {
+        "country": "Hong-Kong",
+        "population": "7516485",
+        "cases": "5309",
+        "deaths": "105",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 51,
+    "fields": {
+        "country": "South-Africa",
+        "population": "59545000",
+        "cases": "716759",
+        "deaths": "19008",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 52,
+    "fields": {
+        "country": "Lebanon",
+        "population": "6815571",
+        "cases": "72186",
+        "deaths": "579",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 53,
+    "fields": {
+        "country": "Iraq",
+        "population": "40503790",
+        "cases": "455398",
+        "deaths": "10671",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 54,
+    "fields": {
+        "country": "Croatia",
+        "population": "4097003",
+        "cases": "38621",
+        "deaths": "470",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 55,
+    "fields": {
+        "country": "Mexico",
+        "population": "129365765",
+        "cases": "895326",
+        "deaths": "89171",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 56,
+    "fields": {
+        "country": "Panama",
+        "population": "4336325",
+        "cases": "129751",
+        "deaths": "2638",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 57,
+    "fields": {
+        "country": "Colombia",
+        "population": "51056218",
+        "cases": "1025052",
+        "deaths": "30348",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 58,
+    "fields": {
+        "country": "Slovakia",
+        "population": "5460498",
+        "cases": "46056",
+        "deaths": "176",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 59,
+    "fields": {
+        "country": "Kuwait",
+        "population": "4290643",
+        "cases": "123092",
+        "deaths": "756",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 60,
+    "fields": {
+        "country": "Serbia",
+        "population": "8726008",
+        "cases": "39827",
+        "deaths": "793",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 61,
+    "fields": {
+        "country": "Bulgaria",
+        "population": "6931486",
+        "cases": "40132",
+        "deaths": "1136",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 62,
+    "fields": {
+        "country": "San-Marino",
+        "population": "33954",
+        "cases": "852",
+        "deaths": "42",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 63,
+    "fields": {
+        "country": "Armenia",
+        "population": "2965033",
+        "cases": "80410",
+        "deaths": "1222",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 64,
+    "fields": {
+        "country": "Argentina",
+        "population": "45328578",
+        "cases": "1102301",
+        "deaths": "29301",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 65,
+    "fields": {
+        "country": "Taiwan",
+        "population": "23830358",
+        "cases": "550",
+        "deaths": "7",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 66,
+    "fields": {
+        "country": "UAE",
+        "population": "9928519",
+        "cases": "127624",
+        "deaths": "482",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 67,
+    "fields": {
+        "country": "Algeria",
+        "population": "44099384",
+        "cases": "56419",
+        "deaths": "1922",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 68,
+    "fields": {
+        "country": "Latvia",
+        "population": "1879352",
+        "cases": "4893",
+        "deaths": "63",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 69,
+    "fields": {
+        "country": "Costa-Rica",
+        "population": "5109015",
+        "cases": "104460",
+        "deaths": "1312",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 70,
+    "fields": {
+        "country": "Dominican-Republic",
+        "population": "10882408",
+        "cases": "124843",
+        "deaths": "2225",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 71,
+    "fields": {
+        "country": "Uruguay",
+        "population": "3477581",
+        "cases": "2872",
+        "deaths": "54",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 72,
+    "fields": {
+        "country": "Hungary",
+        "population": "9652379",
+        "cases": "63642",
+        "deaths": "1535",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 73,
+    "fields": {
+        "country": "Jordan",
+        "population": "10235261",
+        "cases": "55055",
+        "deaths": "624",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 74,
+    "fields": {
+        "country": "Lithuania",
+        "population": "2709779",
+        "cases": "11362",
+        "deaths": "141",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 75,
+    "fields": {
+        "country": "Morocco",
+        "population": "37048960",
+        "cases": "199745",
+        "deaths": "3373",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 76,
+    "fields": {
+        "country": "Vietnam",
+        "population": "97616709",
+        "cases": "1169",
+        "deaths": "35",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 77,
+    "fields": {
+        "country": "Bosnia-and-Herzegovina",
+        "population": "3274158",
+        "cases": "43151",
+        "deaths": "1125",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 78,
+    "fields": {
+        "country": "Faeroe-Islands",
+        "population": "48922",
+        "cases": "490",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 79,
+    "fields": {
+        "country": "Andorra",
+        "population": "77305",
+        "cases": "4325",
+        "deaths": "72",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 80,
+    "fields": {
+        "country": "North-Macedonia",
+        "population": "2083347",
+        "cases": "27199",
+        "deaths": "934",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 81,
+    "fields": {
+        "country": "Cyprus",
+        "population": "1210156",
+        "cases": "3636",
+        "deaths": "25",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 82,
+    "fields": {
+        "country": "Brunei",
+        "population": "438808",
+        "cases": "148",
+        "deaths": "3",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 83,
+    "fields": {
+        "country": "Moldova",
+        "population": "4030942",
+        "cases": "71811",
+        "deaths": "1700",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 84,
+    "fields": {
+        "country": "Sri-Lanka",
+        "population": "21442186",
+        "cases": "8413",
+        "deaths": "19",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 85,
+    "fields": {
+        "country": "Albania",
+        "population": "2876786",
+        "cases": "19445",
+        "deaths": "480",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 86,
+    "fields": {
+        "country": "Belarus",
+        "population": "9448316",
+        "cases": "94609",
+        "deaths": "965",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 87,
+    "fields": {
+        "country": "Malta",
+        "population": "441923",
+        "cases": "5685",
+        "deaths": "55",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 88,
+    "fields": {
+        "country": "Venezuela",
+        "population": "28409746",
+        "cases": "90047",
+        "deaths": "777",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 89,
+    "fields": {
+        "country": "Burkina-Faso",
+        "population": "21080603",
+        "cases": "2459",
+        "deaths": "67",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 90,
+    "fields": {
+        "country": "Tunisia",
+        "population": "11857814",
+        "cases": "52399",
+        "deaths": "983",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 91,
+    "fields": {
+        "country": "Guadeloupe",
+        "population": "400146",
+        "cases": "7474",
+        "deaths": "115",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 92,
+    "fields": {
+        "country": "Senegal",
+        "population": "16881863",
+        "cases": "15571",
+        "deaths": "322",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 93,
+    "fields": {
+        "country": "Kazakhstan",
+        "population": "18848360",
+        "cases": "110684",
+        "deaths": "1796",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 94,
+    "fields": {
+        "country": "Azerbaijan",
+        "population": "10168448",
+        "cases": "51149",
+        "deaths": "688",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 95,
+    "fields": {
+        "country": "Cambodia",
+        "population": "16792595",
+        "cases": "288",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 96,
+    "fields": {
+        "country": "Palestine",
+        "population": "5138654",
+        "cases": "50952",
+        "deaths": "454",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 97,
+    "fields": {
+        "country": "New-Zealand",
+        "population": "5002100",
+        "cases": "1941",
+        "deaths": "25",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 98,
+    "fields": {
+        "country": "Oman",
+        "population": "5147281",
+        "cases": "113820",
+        "deaths": "1203",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 99,
+    "fields": {
+        "country": "Georgia",
+        "population": "3986680",
+        "cases": "32127",
+        "deaths": "238",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 100,
+    "fields": {
+        "country": "Trinidad-and-Tobago",
+        "population": "1400938",
+        "cases": "5535",
+        "deaths": "106",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 101,
+    "fields": {
+        "country": "Ukraine",
+        "population": "43648016",
+        "cases": "355601",
+        "deaths": "6590",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 102,
+    "fields": {
+        "country": "R&eacute;union",
+        "population": "897346",
+        "cases": "5361",
+        "deaths": "20",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 103,
+    "fields": {
+        "country": "Uzbekistan",
+        "population": "33623419",
+        "cases": "65765",
+        "deaths": "554",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 104,
+    "fields": {
+        "country": "Cameroon",
+        "population": "26751063",
+        "cases": "21793",
+        "deaths": "426",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 105,
+    "fields": {
+        "country": "Martinique",
+        "population": "375182",
+        "cases": "2257",
+        "deaths": "24",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 106,
+    "fields": {
+        "country": "Liechtenstein",
+        "population": "38163",
+        "cases": "428",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 107,
+    "fields": {
+        "country": "Channel-Islands",
+        "population": "174372",
+        "cases": "796",
+        "deaths": "48",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 108,
+    "fields": {
+        "country": "Bangladesh",
+        "population": "165214241",
+        "cases": "401586",
+        "deaths": "5838",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 109,
+    "fields": {
+        "country": "Afghanistan",
+        "population": "39203946",
+        "cases": "41032",
+        "deaths": "1523",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 110,
+    "fields": {
+        "country": "Honduras",
+        "population": "9954593",
+        "cases": "93966",
+        "deaths": "2633",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 111,
+    "fields": {
+        "country": "DRC",
+        "population": "90400023",
+        "cases": "11174",
+        "deaths": "305",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 112,
+    "fields": {
+        "country": "Nigeria",
+        "population": "207726439",
+        "cases": "62111",
+        "deaths": "1132",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 113,
+    "fields": {
+        "country": "Cuba",
+        "population": "11324393",
+        "cases": "6595",
+        "deaths": "128",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 114,
+    "fields": {
+        "country": "Ghana",
+        "population": "31277319",
+        "cases": "47775",
+        "deaths": "316",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 115,
+    "fields": {
+        "country": "Puerto-Rico",
+        "population": null,
+        "cases": "39",
+        "deaths": "2",
+        "day": "2020-03-25",
+        "time": "2020-03-25T06:00:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 116,
+    "fields": {
+        "country": "Jamaica",
+        "population": "2965296",
+        "cases": "8749",
+        "deaths": "192",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 117,
+    "fields": {
+        "country": "Bolivia",
+        "population": "11723704",
+        "cases": "140952",
+        "deaths": "8658",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 118,
+    "fields": {
+        "country": "Guyana",
+        "population": "787764",
+        "cases": "4026",
+        "deaths": "119",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 119,
+    "fields": {
+        "country": "Paraguay",
+        "population": "7160238",
+        "cases": "60109",
+        "deaths": "1333",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 120,
+    "fields": {
+        "country": "Macao",
+        "population": "650919",
+        "cases": "46",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 121,
+    "fields": {
+        "country": "Monaco",
+        "population": "39331",
+        "cases": "310",
+        "deaths": "2",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 122,
+    "fields": {
+        "country": "French-Guiana",
+        "population": "301104",
+        "cases": "10385",
+        "deaths": "69",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 123,
+    "fields": {
+        "country": "Guatemala",
+        "population": "18019440",
+        "cases": "104894",
+        "deaths": "3651",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 124,
+    "fields": {
+        "country": "Rwanda",
+        "population": "13051938",
+        "cases": "5073",
+        "deaths": "34",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 125,
+    "fields": {
+        "country": "Montenegro",
+        "population": "628092",
+        "cases": "16909",
+        "deaths": "270",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 126,
+    "fields": {
+        "country": "Togo",
+        "population": "8339106",
+        "cases": "2204",
+        "deaths": "53",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 127,
+    "fields": {
+        "country": "French-Polynesia",
+        "population": "281426",
+        "cases": "6431",
+        "deaths": "26",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 128,
+    "fields": {
+        "country": "Guam",
+        "population": null,
+        "cases": "32",
+        "deaths": "1",
+        "day": "2020-03-25",
+        "time": "2020-03-25T06:00:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 129,
+    "fields": {
+        "country": "Mauritius",
+        "population": "1272445",
+        "cases": "439",
+        "deaths": "10",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 130,
+    "fields": {
+        "country": "Barbados",
+        "population": "287488",
+        "cases": "233",
+        "deaths": "7",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 131,
+    "fields": {
+        "country": "Ivory-Coast",
+        "population": "26581157",
+        "cases": "20486",
+        "deaths": "122",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 132,
+    "fields": {
+        "country": "Kyrgyzstan",
+        "population": "6558322",
+        "cases": "56738",
+        "deaths": "1136",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 133,
+    "fields": {
+        "country": "Maldives",
+        "population": "543558",
+        "cases": "11532",
+        "deaths": "37",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 134,
+    "fields": {
+        "country": "Mayotte",
+        "population": "274879",
+        "cases": "4321",
+        "deaths": "44",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 135,
+    "fields": {
+        "country": "Gibraltar",
+        "population": "33688",
+        "cases": "670",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 136,
+    "fields": {
+        "country": "Mongolia",
+        "population": "3295037",
+        "cases": "340",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 137,
+    "fields": {
+        "country": "Ethiopia",
+        "population": "115848055",
+        "cases": "93707",
+        "deaths": "1437",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 138,
+    "fields": {
+        "country": "Kenya",
+        "population": "54140652",
+        "cases": "49997",
+        "deaths": "920",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 139,
+    "fields": {
+        "country": "Seychelles",
+        "population": "98536",
+        "cases": "153",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 140,
+    "fields": {
+        "country": "Equatorial-Guinea",
+        "population": "1417255",
+        "cases": "5083",
+        "deaths": "83",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 141,
+    "fields": {
+        "country": "Tanzania",
+        "population": "59886383",
+        "cases": "509",
+        "deaths": "21",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 142,
+    "fields": {
+        "country": "US-Virgin-Islands",
+        "population": null,
+        "cases": "17",
+        "deaths": "0",
+        "day": "2020-03-25",
+        "time": "2020-03-25T06:00:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 143,
+    "fields": {
+        "country": "Gabon",
+        "population": "2242074",
+        "cases": "8937",
+        "deaths": "54",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 144,
+    "fields": {
+        "country": "Aruba",
+        "population": "106912",
+        "cases": "4422",
+        "deaths": "36",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 145,
+    "fields": {
+        "country": "Saint-Martin",
+        "population": "38875",
+        "cases": "542",
+        "deaths": "8",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 146,
+    "fields": {
+        "country": "Suriname",
+        "population": "588301",
+        "cases": "5180",
+        "deaths": "110",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 147,
+    "fields": {
+        "country": "Bahamas",
+        "population": "394426",
+        "cases": "6410",
+        "deaths": "132",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 148,
+    "fields": {
+        "country": "New-Caledonia",
+        "population": "286331",
+        "cases": "27",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 149,
+    "fields": {
+        "country": "Cayman-Islands",
+        "population": "65966",
+        "cases": "239",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 150,
+    "fields": {
+        "country": "Cura&ccedil;ao",
+        "population": "164307",
+        "cases": "873",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 151,
+    "fields": {
+        "country": "Cabo-Verde",
+        "population": "557916",
+        "cases": "8423",
+        "deaths": "94",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 152,
+    "fields": {
+        "country": "CAR",
+        "population": "4856358",
+        "cases": "4863",
+        "deaths": "62",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 153,
+    "fields": {
+        "country": "Congo",
+        "population": "5559910",
+        "cases": "5253",
+        "deaths": "92",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 154,
+    "fields": {
+        "country": "El-Salvador",
+        "population": "6496652",
+        "cases": "32925",
+        "deaths": "953",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 155,
+    "fields": {
+        "country": "Liberia",
+        "population": "5094671",
+        "cases": "1416",
+        "deaths": "82",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 156,
+    "fields": {
+        "country": "Madagascar",
+        "population": "27907915",
+        "cases": "16968",
+        "deaths": "244",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 157,
+    "fields": {
+        "country": "Namibia",
+        "population": "2555336",
+        "cases": "12675",
+        "deaths": "133",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 158,
+    "fields": {
+        "country": "St-Barth",
+        "population": "9887",
+        "cases": "83",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 159,
+    "fields": {
+        "country": "Zimbabwe",
+        "population": "14931115",
+        "cases": "8303",
+        "deaths": "242",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 160,
+    "fields": {
+        "country": "Sudan",
+        "population": "44167913",
+        "cases": "13747",
+        "deaths": "837",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 161,
+    "fields": {
+        "country": "Angola",
+        "population": "33180818",
+        "cases": "9644",
+        "deaths": "270",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 162,
+    "fields": {
+        "country": "Benin",
+        "population": "12218137",
+        "cases": "2557",
+        "deaths": "41",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 163,
+    "fields": {
+        "country": "Bermuda",
+        "population": "62204",
+        "cases": "193",
+        "deaths": "9",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 164,
+    "fields": {
+        "country": "Bhutan",
+        "population": "774322",
+        "cases": "342",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 165,
+    "fields": {
+        "country": "Fiji",
+        "population": "898424",
+        "cases": "33",
+        "deaths": "2",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 166,
+    "fields": {
+        "country": "Greenland",
+        "population": "56800",
+        "cases": "17",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 167,
+    "fields": {
+        "country": "Guinea",
+        "population": "13239143",
+        "cases": "11635",
+        "deaths": "71",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 168,
+    "fields": {
+        "country": "Haiti",
+        "population": "11446101",
+        "cases": "9026",
+        "deaths": "232",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 169,
+    "fields": {
+        "country": "Isle-of-Man",
+        "population": "85177",
+        "cases": "351",
+        "deaths": "24",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 170,
+    "fields": {
+        "country": "Mauritania",
+        "population": "4687533",
+        "cases": "7677",
+        "deaths": "163",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 171,
+    "fields": {
+        "country": "Nicaragua",
+        "population": "6648409",
+        "cases": "5434",
+        "deaths": "155",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 172,
+    "fields": {
+        "country": "Saint-Lucia",
+        "population": "183895",
+        "cases": "63",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 173,
+    "fields": {
+        "country": "Zambia",
+        "population": "18543101",
+        "cases": "16200",
+        "deaths": "348",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 174,
+    "fields": {
+        "country": "Nepal",
+        "population": "29302615",
+        "cases": "160400",
+        "deaths": "876",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 175,
+    "fields": {
+        "country": "Antigua-and-Barbuda",
+        "population": "98185",
+        "cases": "124",
+        "deaths": "3",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 176,
+    "fields": {
+        "country": "Chad",
+        "population": "16571408",
+        "cases": "1441",
+        "deaths": "96",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 177,
+    "fields": {
+        "country": "Djibouti",
+        "population": "992568",
+        "cases": "5541",
+        "deaths": "61",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 178,
+    "fields": {
+        "country": "Eritrea",
+        "population": "3561504",
+        "cases": "461",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 179,
+    "fields": {
+        "country": "Gambia",
+        "population": "2437652",
+        "cases": "3665",
+        "deaths": "119",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 180,
+    "fields": {
+        "country": "Vatican-City",
+        "population": "802",
+        "cases": "27",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 181,
+    "fields": {
+        "country": "Montserrat",
+        "population": "4993",
+        "cases": "13",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 182,
+    "fields": {
+        "country": "Niger",
+        "population": "24474131",
+        "cases": "1215",
+        "deaths": "69",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 183,
+    "fields": {
+        "country": "Papua-New-Guinea",
+        "population": "9000110",
+        "cases": "588",
+        "deaths": "7",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 184,
+    "fields": {
+        "country": "St-Vincent-Grenadines",
+        "population": "111053",
+        "cases": "73",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 185,
+    "fields": {
+        "country": "Sint-Maarten",
+        "population": "43031",
+        "cases": "789",
+        "deaths": "22",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 186,
+    "fields": {
+        "country": "Somalia",
+        "population": "16029088",
+        "cases": "3941",
+        "deaths": "104",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 187,
+    "fields": {
+        "country": "Eswatini",
+        "population": "1163972",
+        "cases": "5863",
+        "deaths": "116",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 188,
+    "fields": {
+        "country": "Timor-Leste",
+        "population": "1326378",
+        "cases": "30",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 189,
+    "fields": {
+        "country": "Uganda",
+        "population": "46189090",
+        "cases": "11621",
+        "deaths": "103",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 190,
+    "fields": {
+        "country": "All",
+        "population": null,
+        "cases": "43877830",
+        "deaths": "1166174",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 191,
+    "fields": {
+        "country": "Mozambique",
+        "population": "31526106",
+        "cases": "12161",
+        "deaths": "88",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 192,
+    "fields": {
+        "country": "Syria",
+        "population": "17632794",
+        "cases": "5461",
+        "deaths": "272",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 193,
+    "fields": {
+        "country": "Grenada",
+        "population": "112687",
+        "cases": "28",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 194,
+    "fields": {
+        "country": "Dominica",
+        "population": "72042",
+        "cases": "38",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 195,
+    "fields": {
+        "country": "Turks-and-Caicos",
+        "population": "38884",
+        "cases": "701",
+        "deaths": "6",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 196,
+    "fields": {
+        "country": "Belize",
+        "population": "399911",
+        "cases": "3200",
+        "deaths": "51",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 197,
+    "fields": {
+        "country": "Myanmar",
+        "population": "54525986",
+        "cases": "46200",
+        "deaths": "1122",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 198,
+    "fields": {
+        "country": "Laos",
+        "population": "7309125",
+        "cases": "24",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 199,
+    "fields": {
+        "country": "Libya",
+        "population": "6901035",
+        "cases": "57975",
+        "deaths": "812",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 200,
+    "fields": {
+        "country": "Mali",
+        "population": "20430915",
+        "cases": "3499",
+        "deaths": "133",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 201,
+    "fields": {
+        "country": "Guinea-Bissau",
+        "population": "1981962",
+        "cases": "2403",
+        "deaths": "41",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 202,
+    "fields": {
+        "country": "British-Virgin-Islands",
+        "population": "30286",
+        "cases": "71",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 203,
+    "fields": {
+        "country": "Saint-Kitts-and-Nevis",
+        "population": "53317",
+        "cases": "19",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 204,
+    "fields": {
+        "country": "Anguilla",
+        "population": "15039",
+        "cases": "3",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 205,
+    "fields": {
+        "country": "MS-Zaandam-",
+        "population": null,
+        "cases": "9",
+        "deaths": "2",
+        "day": "2020-04-09",
+        "time": "2020-04-09T15:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 206,
+    "fields": {
+        "country": "MS-Zaandam",
+        "population": null,
+        "cases": "9",
+        "deaths": "2",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 207,
+    "fields": {
+        "country": "Botswana",
+        "population": "2366473",
+        "cases": "6283",
+        "deaths": "21",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 208,
+    "fields": {
+        "country": "Sierra-Leone",
+        "population": "8027249",
+        "cases": "2346",
+        "deaths": "74",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 209,
+    "fields": {
+        "country": "Burundi",
+        "population": "11998988",
+        "cases": "557",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 210,
+    "fields": {
+        "country": "Caribbean-Netherlands",
+        "population": "26300",
+        "cases": "150",
+        "deaths": "3",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 211,
+    "fields": {
+        "country": "Malawi",
+        "population": "19283244",
+        "cases": "5894",
+        "deaths": "183",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 212,
+    "fields": {
+        "country": "Falkland-Islands",
+        "population": "3512",
+        "cases": "13",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 213,
+    "fields": {
+        "country": "Western-Sahara",
+        "population": "596831",
+        "cases": "10",
+        "deaths": "1",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 214,
+    "fields": {
+        "country": "South-Sudan",
+        "population": "11234890",
+        "cases": "2883",
+        "deaths": "56",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 215,
+    "fields": {
+        "country": "Saint-Pierre-Miquelon",
+        "population": "5785",
+        "cases": "16",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 216,
+    "fields": {
+        "country": "Sao-Tome-and-Principe",
+        "population": "220446",
+        "cases": "941",
+        "deaths": "15",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 217,
+    "fields": {
+        "country": "North-America",
+        "population": null,
+        "cases": "10734079",
+        "deaths": "344918",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 218,
+    "fields": {
+        "country": "Europe",
+        "population": null,
+        "cases": "8703839",
+        "deaths": "253171",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 219,
+    "fields": {
+        "country": "Asia",
+        "population": null,
+        "cases": "13254085",
+        "deaths": "236427",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 220,
+    "fields": {
+        "country": "South-America",
+        "population": null,
+        "cases": "9408837",
+        "deaths": "288993",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 221,
+    "fields": {
+        "country": "Oceania",
+        "population": null,
+        "cases": "36566",
+        "deaths": "965",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 222,
+    "fields": {
+        "country": "Africa",
+        "population": null,
+        "cases": "1739703",
+        "deaths": "41685",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 223,
+    "fields": {
+        "country": "Diamond-Princess",
+        "population": null,
+        "cases": "712",
+        "deaths": "13",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 224,
+    "fields": {
+        "country": "Yemen",
+        "population": "30027214",
+        "cases": "2060",
+        "deaths": "599",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 225,
+    "fields": {
+        "country": "Tajikistan",
+        "population": "9604406",
+        "cases": "10819",
+        "deaths": "81",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:06+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 226,
+    "fields": {
+        "country": "Comoros",
+        "population": "875181",
+        "cases": "517",
+        "deaths": "7",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 227,
+    "fields": {
+        "country": "Lesotho",
+        "population": "2147650",
+        "cases": "1943",
+        "deaths": "43",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 228,
+    "fields": {
+        "country": "Solomon-Islands",
+        "population": "692118",
+        "cases": "4",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.caronadata",
+    "pk": 229,
+    "fields": {
+        "country": "Wallis-and-Futuna",
+        "population": "11176",
+        "cases": "1",
+        "deaths": "0",
+        "day": "2020-10-27",
+        "time": "2020-10-27T12:45:07+00:00",
+        "current_time": "18:23:06"
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 1,
+    "fields": {
+        "name": "A1",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 2,
+    "fields": {
+        "name": "A2",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 3,
+    "fields": {
+        "name": "A3",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 4,
+    "fields": {
+        "name": "A3",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 5,
+    "fields": {
+        "name": "A5",
+        "total": 50
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 6,
+    "fields": {
+        "name": "A6",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 7,
+    "fields": {
+        "name": "A7",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 8,
+    "fields": {
+        "name": "A8",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 9,
+    "fields": {
+        "name": "A9",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 10,
+    "fields": {
+        "name": "A10",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 11,
+    "fields": {
+        "name": "A11",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 12,
+    "fields": {
+        "name": "A12",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 13,
+    "fields": {
+        "name": "A13",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 14,
+    "fields": {
+        "name": "A14",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 15,
+    "fields": {
+        "name": "A15",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 16,
+    "fields": {
+        "name": "A16",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 17,
+    "fields": {
+        "name": "A17",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 18,
+    "fields": {
+        "name": "A18",
+        "total": 100
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 19,
+    "fields": {
+        "name": "A19",
+        "total": 0
+    }
+},
+{
+    "model": "app1.asset",
+    "pk": 20,
+    "fields": {
+        "name": "A20",
+        "total": 50
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 1,
+    "fields": {
+        "userid": "Alapakam1",
+        "asset_name": "A1",
+        "submittime": "14:12:44.549",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-26",
+        "submitdt": "2020-10-26T08:42:44.549Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 2,
+    "fields": {
+        "userid": "Alapakam1",
+        "asset_name": "A10",
+        "submittime": "14:14:41.528",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-26",
+        "submitdt": "2020-10-26T08:44:41.528Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 3,
+    "fields": {
+        "userid": "Alapakam1",
+        "asset_name": "A6",
+        "submittime": "14:20:23.786",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-26",
+        "submitdt": "2020-10-26T08:50:23.786Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 4,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A2",
+        "submittime": "07:42:46.810",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-27",
+        "submitdt": "2020-10-27T02:12:46.810Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 5,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A16",
+        "submittime": "08:10:36.977",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-27",
+        "submitdt": "2020-10-27T02:40:36.977Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 6,
+    "fields": {
+        "userid": "Alapakam1",
+        "asset_name": "A20",
+        "submittime": "13:10:26.878",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-27",
+        "submitdt": "2020-10-27T07:40:26.878Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 7,
+    "fields": {
+        "userid": "Alapakam1",
+        "asset_name": "A16",
+        "submittime": "13:13:41.591",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-27",
+        "submitdt": "2020-10-27T07:43:41.591Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 8,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A6",
+        "submittime": "13:16:10.483",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-27",
+        "submitdt": "2020-10-27T07:46:10.483Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 9,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A2",
+        "submittime": "19:11:00.734",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T13:41:00.734Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 10,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A1",
+        "submittime": "20:12:46.433",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:42:46.433Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 11,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A1",
+        "submittime": "20:13:28.646",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:43:28.646Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 12,
+    "fields": {
+        "userid": "Alapakam",
+        "asset_name": "A1",
+        "submittime": "20:19:53.618",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:49:53.618Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 13,
+    "fields": {
+        "userid": "Alapakam2",
+        "asset_name": "A10",
+        "submittime": "20:24:03.196",
+        "timeremaining": "sometime",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:54:03.196Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 14,
+    "fields": {
+        "userid": "Alapakam2",
+        "asset_name": "A9",
+        "submittime": "20:25:59.487",
+        "timeremaining": "1000",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:55:59.487Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 15,
+    "fields": {
+        "userid": "Alapakam3",
+        "asset_name": "A9",
+        "submittime": "20:27:13.683",
+        "timeremaining": "1000",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:57:13.683Z"
+    }
+},
+{
+    "model": "app1.submitedassets",
+    "pk": 16,
+    "fields": {
+        "userid": "Alapakam3",
+        "asset_name": "A20",
+        "submittime": "20:28:17.100",
+        "timeremaining": "1000",
+        "submitdate": "2020-10-28",
+        "submitdt": "2020-10-28T14:58:17.100Z"
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "username": "Alapakam",
+        "email": "dorababua77@gmail.com",
+        "groupid": "hyderabad",
+        "password": "pbkdf2_sha256$216000$FDlT5gWocfbR$epXH/61Rjnoe7xeev7BZRoCv+OSNahpjBE8XlxNMmLI=",
+        "ipaddress": "127.0.0.1",
+        "registerdate": "2020-10-27",
+        "last_login_date": null,
+        "created_on": "2020-10-27",
+        "status": true
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "username": "Alapakam2",
+        "email": "dorababua77@gmail.com",
+        "groupid": "chennai",
+        "password": "pbkdf2_sha256$216000$M7XKheQq9kbY$7Mcay+d6V6+Ow/+6TG2drnY/y233at4UkFOKJfNjj5c=",
+        "ipaddress": "127.0.0.1",
+        "registerdate": "2020-10-27",
+        "last_login_date": null,
+        "created_on": "2020-10-27",
+        "status": true
+    }
+},
+{
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+        "username": "Alapakam3",
+        "email": "dorababua77@gmail.com",
+        "groupid": "hyderabad",
+        "password": "pbkdf2_sha256$216000$Vyi1FyMOXbOn$KgGqopoU8pYwkry1zPxUTXdshZ5naH4Yy8njN7iT3Zs=",
+        "ipaddress": "127.0.0.1",
+        "registerdate": "2020-10-28",
+        "last_login_date": null,
+        "created_on": "2020-10-28",
+        "status": true
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 11,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 12,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 13,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 14,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 15,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 16,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 17,
+    "fields": {
+        "userid": 4,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 18,
+    "fields": {
+        "userid": 4,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 19,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 20,
+    "fields": {
+        "userid": 4,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 21,
+    "fields": {
+        "userid": 5,
+        "type": "some type",
+        "created_on": "2020-10-28",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 22,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 23,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 24,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 25,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 26,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+},
+{
+    "model": "users.logindetails",
+    "pk": 27,
+    "fields": {
+        "userid": 3,
+        "type": "some type",
+        "created_on": "2020-10-27",
+        "ipaddress": "127.0.0.1",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    }
+}
+]

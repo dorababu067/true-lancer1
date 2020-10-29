@@ -1,6 +1,13 @@
-SELECT userid, asset_name, count(id) as totalcount, Max(submittime) AS latestsubmit FROM mydb1.app1_submitedassets WHERE submitdate=DATE(NOW()) group by userid
+# I have created project with the name dj_project
+# then I have created two app with names app1, and users
+# users app will manged only authentications
+    in this users app i have created 3 views
+    -- Register view(using this users can Register)
+    -- Login view(using this users can Login)
+    -- Logout view(users can Logout here..)
+# app1 usefull manging the dashbord
+     in this app1 app i have created couple of views
+     -- index (once user logged in index view will be render)
+     -- submit_asset (users can able to submit to their assets)
+     -- dashboard_live_data (this views render the live up to data)
 
-SELECT nestedtable1.assetname,COUNT(nestedtable1.id) as totalusers FROM app1_users INNER JOIN (SELECT t1.* FROM app1_submittedassets t1 INNER JOIN (SELECT userid, MAX(submitdate) submitdate FROM app1_submittedassets WHERE submitdate=DATE(NOW()) GROUP BY userid) t2 ON t1.userid = t2.userid AND t1.submitdate = t2.submitdate) nestedtable1 on app1_users.id=nestedtable1.userid GROUP BY nestedtable1.assetname
-
-
-SELECT nestedtable1.assetname,COUNT(nestedtable1.id) as totalusers FROM mydb1.users_user INNER JOIN (SELECT t1.* FROM app1_submittedassets t1 INNER JOIN (SELECT userid, MAX(submitdate) submitdate FROM mydb1.app1_submittedassets WHERE submitdate=DATE(NOW()) GROUP BY userid) t2 ON t1.userid = t2.userid AND t1.submitdate = t2.submitdate) nestedtable1 on mydb1.users_user.id=nestedtable1.userid GROUP BY nestedtable1.assetname
