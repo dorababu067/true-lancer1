@@ -23,8 +23,11 @@ urlpatterns = [
     path('index/', views.index, name="index"),
     path('graph/', views.dynamic_graph, name="dynamic-graph"),
     path('table/', views.dynamic_table, name="dynamic-table"),
+    path('asset/graph/', views.asset_graph_view, name="asset-graph"),
+
     # asset views
     path('asset/submit/<str:asset>/<str:timeremaining>/', views.submit_asset, name="submit-asset"),
+    path('excel/data/', views.excel_data_view, name="excel-data"),
 
     # streaming data
     path('stream/', views.caron_live_data, name="stream"),

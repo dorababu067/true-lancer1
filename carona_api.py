@@ -8,8 +8,6 @@ import schedule
 from datetime import datetime
 
 
-
-
 # for accesing the models these lines mandatory.
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj_project.settings')
 django.setup()

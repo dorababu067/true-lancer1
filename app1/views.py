@@ -1,28 +1,34 @@
 import time
 import json
+import pandas
 from django.shortcuts import render, redirect
 from django.http import JsonResponse, StreamingHttpResponse
 from django.core import serializers
 from .models import CaronaData, Asset, SubmitedAssets
-from .graph import genarate_bar_graph
+from .graph import genarate_bar_graph, asset_graph, excel_data_to_graph
 from django_pandas.io import read_frame
 from users.decorators import my_login_required
 from django.template.loader import render_to_string
 from django.db import connection
 from django.core.serializers.json import DjangoJSONEncoder
 from .raw_querys import my_query
+from .excel_static import convert_df_to_html
 
 # Create your views here.
 @my_login_required
 def index(request):
     carona = CaronaData.objects.all()
-    df = read_frame(carona)
+    # df = read_frame(carona)
+    df, html = convert_df_to_html()
     context = {
-    "data" : CaronaData.objects.all(),
+    # "data" : CaronaData.objects.all(),
     # "graph1" : genarate_bar_graph(df),
     # "graph2" : genarate_bar_graph(df),
+    "graph": asset_graph(),
     "assets1" : Asset.objects.all()[0:10],
     "assets2" : Asset.objects.all()[10:20],
+    "html": html,
+    "excel_graph": excel_data_to_graph(df),
     }
     return render(request, 'index.html', context)
 
@@ -96,3 +102,24 @@ def dashboard_live_data(request):
         response = StreamingHttpResponse(dash_event_stream())
         response['Content-Type'] = 'text/event-stream'
         return response
+
+
+def asset_graph_view(request):
+    if request.method == "GET":
+        value = request.GET["option"]
+        context = {
+            "graph": asset_graph(value)
+        }
+        
+        return JsonResponse(context, safe=False)
+
+def excel_data_view(request):
+     if request.method == "GET":
+        value = request.GET["option"]
+        df, html = convert_df_to_html(field=value)
+        context = {
+            "html": html,
+            "graph":excel_data_to_graph(df)
+        }
+        
+        return JsonResponse(context, safe=False)

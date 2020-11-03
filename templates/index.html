@@ -7,14 +7,69 @@
 </div>
 <!-- Dashboard Buttons End -->
 <div class="row">
-    <div id="stream-data">
-        <table class="table table-hover table-bordered">
-            <thead>
-                <tr id="stream-headers"></tr>
-            </thead>
-            <tbody id="stream-body">
-            </tbody>
-        </table>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <div class="radio-buttons">
+                    <label class="radio-inline">
+                        <input type="radio" class="excel-data" name="optradio" value="f1" checked>f1
+                    </label>
+                    <label>
+                        <input type="radio" class="excel-data" name="optradio" value="f2">f2
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" class="excel-data" name="optradio" value="f3">f3
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" class="excel-data" name="optradio" value="f4">f4
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" class="excel-data" name="optradio" value="f5">f5
+                    </label>
+                </div>
+            </div>
+            <div class="card-body" id="static-excel">
+                {% autoescape off %}
+                {{html}}
+                {% endautoescape %}
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card-body" id="static-graph">
+            {% autoescape off %}
+            {{ excel_graph }}
+            {% endautoescape %}
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6 col-md-6">
+        <div class="card">
+            <div class="card-header">Streming Data</div>
+            <div class="card-boy mt-2">
+                <table id="myTable" class="display" width="100%"></table>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <label class="radio-inline">
+                    <input type="radio" class="graph" name="optradio" value="userid" checked>UserId
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" class="graph" name="optradio" value="asset">Asset
+                </label>
+
+            </div>
+            <div class="card-boy" id="live-graph">
+                {% autoescape off %}
+                {{graph}}
+                {% endautoescape %}
+            </div>
+        </div>
     </div>
 </div>
 <div class="row">
@@ -172,6 +227,7 @@
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
     $(document).ready(function () {
         // handlling-graph
@@ -234,57 +290,120 @@
             });
         });
 
-        $(".submit-asset").click(function (event) {
-            // event.preventDefault();
-            console.log("hey clicked the button")
+        $(".graph").change(function (e) {
+            // console.log("radio clicked...")
+            var val = $("input[name='optradio']:checked").val();
+            console.log(val)
+            $.ajax({
+                type: "GET",
+                url: "{% url 'asset-graph' %}",
+                data: {
+                    option: val
+                },
+                beforeSend: function () {
+                    $('#live-graph').html('<div class="spinner-border text-danger" role="status"><span class= "sr-only" > Loading...</span ></div>');
+                },
+                success: function (response) {
+                    $('#live-graph').html(response["graph"]);
+                }
+            });
+        })
 
-        });
+        // static excel data
+        $(".excel-data").change(function (e) {
+            console.log("radio clicked...")
+            var val = $("input[name='optradio']:checked").val();
+            console.log(val)
+            $.ajax({
+                type: "GET",
+                url: "{% url 'excel-data' %}",
+                data: {
+                    option: val
+                },
+                beforeSend: function () {
+                    $('#static-excel').html('<div class="spinner-border text-danger" role="status"><span class= "sr-only" > Loading...</span ></div>');
+                    $('#static-graph').html('<div class="spinner-border text-danger" role="status"><span class= "sr-only" > Loading...</span ></div>');
+                },
+                success: function (response) {
+                    console.log(response)
+                    $('#static-excel').html(response['html']);
+                    $('#static-graph').html(response['graph']);
+                }
+            });
+        })
 
 
     });
+</script>
 
-    // Event source
-    var eventSource = new EventSource("{% url 'stream' %}");
+<script type="text/javascript">
+    if (typeof (EventSource) !== "undefined") {
 
-    eventSource.onopen = function () {
-        console.log(' table event-stream its open?');
-    }
-    eventSource.onmessage = function (e) {
-        final_data = JSON.parse(e.data)
-        var thead = "";
-        Object.keys(final_data[0]).forEach(function (item) {
-            thead += `<th>${item}</th>`
-        })
-        document.getElementById("stream-headers").innerHTML = thead
-        // console.log(thead)
+        // Event source table
+        var eventSource = new EventSource("{% url 'stream' %}");
 
-        var tbody = ""
-        final_data.forEach(function (item) {
-            row = Object.values(item)
-            tbody += "<tr>"
-            row.forEach(function (item) {
-                tbody += `<td>${item}</td>`
+        eventSource.onopen = function () {
+            console.log(' table event-stream its open?');
+        }
+        eventSource.onmessage = function (e) {
+            final_data = JSON.parse(e.data)
+            var headers = []
+            // creating the table headers
+            Object.keys(final_data[0]).forEach(function (item) {
+                headers.push({ "title": item })
             })
-            tbody += "</tr>"
-        })
-        document.getElementById("stream-body").innerHTML = tbody
-    }
 
-    // Event source dashboard butttons
-    var eventSource = new EventSource("{% url 'dash-stream' %}");
+            var dataSet = []
+            final_data.forEach(function (item) {
+                row = Object.values(item)
+                dataSet.push(row)
+            })
 
-    eventSource.onopen = function () {
-        console.log(' dash event-stream its open?');
-    }
-    eventSource.onmessage = function (e) {
-        final_data = JSON.parse(e.data)
-        // console.log(final_data)
-        var currentime = new Date();
-        var timeremaining = 1000;
-        //Event source dashboard butttons dashboard butttons first row
-        buttons1 = ""
-        final_data.slice(0, 10).forEach(function (item) {
-            buttons1 += ` <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#${item.name}">
+            $(document).ready(function () {
+                $("#myTable").DataTable({
+                    data: dataSet,
+                    columns: headers,
+                    "lengthMenu": [10, 3, 5, 25, 50]
+                });
+            })
+        }
+
+        // eventSource.onmessage = function (e) {
+        //     final_data = JSON.parse(e.data)
+        //     var thead = "";
+        //     Object.keys(final_data[0]).forEach(function (item) {
+        //         thead += `<th>${item}</th>`
+        //     })
+        //     document.getElementById("stream-headers").innerHTML = thead
+        //     // console.log(thead)
+
+        //     var tbody = ""
+        //     final_data.forEach(function (item) {
+        //         row = Object.values(item)
+        //         tbody += "<tr>"
+        //         row.forEach(function (item) {
+        //             tbody += `<td>${item}</td>`
+        //         })
+        //         tbody += "</tr>"
+        //     })
+        //     document.getElementById("stream-body").innerHTML = tbody
+        // }
+
+        // Event source dashboard butttons
+        var eventSource = new EventSource("{% url 'dash-stream' %}");
+
+        eventSource.onopen = function () {
+            console.log('dash event-stream its open?');
+        }
+        eventSource.onmessage = function (e) {
+            final_data = JSON.parse(e.data)
+            // console.log(final_data)
+            var currentime = new Date();
+            var timeremaining = 1000;
+            //Event source dashboard butttons dashboard butttons first row
+            buttons1 = ""
+            final_data.slice(0, 10).forEach(function (item) {
+                buttons1 += ` <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#${item.name}">
                             <!-- small box -->
                         <div class="small-box bg-danger">
                                 <div class="inner">
@@ -321,14 +440,14 @@
                             </div>
                         </div>
                         `
-        })
-        document.getElementById("stream-buttons1").innerHTML = buttons1
+            })
+            document.getElementById("stream-buttons1").innerHTML = buttons1
 
-        //Event source dashboard butttons dashboard butttons first row
-        buttons2 = ""
-        final_data.slice(10, 20).forEach(function (item) {
-            // console.log(item)
-            buttons2 += ` <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#${item.name}">
+            //Event source dashboard butttons dashboard butttons first row
+            buttons2 = ""
+            final_data.slice(10, 20).forEach(function (item) {
+                // console.log(item)
+                buttons2 += ` <div class="col-lg-1 col-md-3 col-3" data-toggle="modal" data-target="#${item.name}">
                                 <!-- small box -->
                                 <div class="small-box bg-success">
                                     <div class="inner">
@@ -365,8 +484,13 @@
                             </div>
                         </div>
                          `
-        })
-        document.getElementById("stream-buttons2").innerHTML = buttons2
+            })
+            document.getElementById("stream-buttons2").innerHTML = buttons2
+        }
     }
+    else {
+        console.log("Event source not opened...")
+    }
+
 </script>
 {% endblock content %}
