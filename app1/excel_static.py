@@ -20,8 +20,8 @@ def convert_df_to_html(field='f1'):
 
     final_df = pd.DataFrame(data)
     # print(final_df)
-    output = final_df.to_html(classes="table table-bordered table-hover")
-    return final_df, output
+    final_df_html = final_df.to_html(classes="table table-bordered table-hover df-table")
+    return final_df, final_df_html
 
 
 

@@ -6,6 +6,7 @@
     <div class="row justify-content-around" id="stream-buttons2"></div>
 </div>
 <!-- Dashboard Buttons End -->
+
 <div class="row">
     <div class="col-md-6">
         <div class="card">
@@ -35,25 +36,19 @@
             </div>
 
         </div>
-    </div>
-    <div class="col-md-6">
         <div class="card-body" id="static-graph">
             {% autoescape off %}
             {{ excel_graph }}
             {% endautoescape %}
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-6 col-md-6">
+    <div class="col-md-6">
         <div class="card">
             <div class="card-header">Streming Data</div>
             <div class="card-boy mt-2">
                 <table id="myTable" class="display" width="100%"></table>
             </div>
         </div>
-    </div>
-    <div class="col-6 col-md-6">
         <div class="card">
             <div class="card-header">
                 <label class="radio-inline">
@@ -226,6 +221,7 @@
         </div>
     </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
@@ -325,14 +321,13 @@
                     $('#static-graph').html('<div class="spinner-border text-danger" role="status"><span class= "sr-only" > Loading...</span ></div>');
                 },
                 success: function (response) {
-                    console.log(response)
                     $('#static-excel').html(response['html']);
                     $('#static-graph').html(response['graph']);
+                    $(".df-table").DataTable();
                 }
             });
         })
-
-
+        $(".df-table").DataTable();//global table
     });
 </script>
 

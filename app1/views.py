@@ -116,10 +116,10 @@ def asset_graph_view(request):
 def excel_data_view(request):
      if request.method == "GET":
         value = request.GET["option"]
-        df, html = convert_df_to_html(field=value)
+        final_df, final_df_html = convert_df_to_html(field=value)
         context = {
-            "html": html,
-            "graph":excel_data_to_graph(df)
+            "html": final_df_html,
+            "graph":excel_data_to_graph(final_df)
         }
         
         return JsonResponse(context, safe=False)
